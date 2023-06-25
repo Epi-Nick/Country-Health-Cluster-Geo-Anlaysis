@@ -688,7 +688,7 @@ dev.off()                                               #Closes final cluster pl
 ################
 
 #import the data 
-Datafile<-read.csv("IntOrg_NCD_variables_2022_02_02.csv") #Use function read.csv to allow R to read the data file where it is saved in your desktop
+Datafile<-read.csv("health_data.csv")                     #Use function read.csv to allow R to read the data file where it is saved in your desktop
 attach(Datafile)                                          #Attach data file
 dim(Datafile)                                             #dim function outputs how much data is in the file as well as how many variables are in it 
 summary(Datafile)                                         #Summary function produces summaries of the results of various model fitting functions from the data 
